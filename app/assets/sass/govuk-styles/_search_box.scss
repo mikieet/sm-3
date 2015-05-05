@@ -1,0 +1,109 @@
+form#header-search {
+    padding-bottom: 30px
+}
+
+form#header-search .header-search-content {
+    position: relative;
+    background: #fff
+}
+
+form#header-search label {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 15px;
+    overflow: hidden;
+    display: block;
+    margin-right: 10px;
+    color: #6f777b
+}
+
+.js-enabled form#header-search label {
+    float: none;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    z-index: 1;
+    width: 100%;
+    margin-right: 0
+}
+
+form#header-search input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    min-width: 0;
+    display: block;
+    margin: 0;
+    border: 1px solid $grey-1;
+    height: 40px;
+    padding: 6px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none
+}
+
+form#header-search input#search-main {
+    font-family: "nta",Arial,sans-serif;
+    font-size: 19px;
+    line-height: 1.47368;
+    font-weight: 400;
+    text-transform: none;
+    position: relative;
+    padding: 6px;
+    z-index: 3;
+    background: transparent
+}
+
+@media (max-width: 640px) {
+    form#header-search input#search-main {
+        font-size:16px;
+        line-height: 1.75
+    }
+}
+
+form#header-search input#search-main.focus,form#header-search input#search-main:focus {
+    background: #fff
+}
+
+.js-enabled form#header-search input#search-main {
+    width: 86%;
+    width: -webkit-calc(100% - 37px);
+    width: calc(100% - 37px)
+}
+
+form#header-search input.submit {
+    position: absolute;
+    z-index: 4;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0b0c0c;
+    border-width: 0 0 0 1px;
+    border-left-color: #222;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    overflow: hidden;
+    text-indent: -5000px;
+    cursor: pointer;
+    color: #fff;
+    background: #0b0c0c url(https://assets.digital.cabinet-office.gov.uk/frontend/homepage/search-button-62a2c0513eea29af4d7d10836901c77a.png) no-repeat 2px 50%
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    form#header-search input.submit {
+        background-size:52.5px 35px;
+        background-position: 115% 50%
+    }
+}
+
+form#header-search input.submit:hover {
+    background-color: #171919
+}
+
+form#header-search.js-visible {
+    display: block
+}

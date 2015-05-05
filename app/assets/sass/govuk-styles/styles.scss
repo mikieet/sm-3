@@ -1,0 +1,24 @@
+// Styles grabbed from GOV.UK
+// ==========================================================================
+
+// Import GOV.UK frontend toolkit
+@import "colours";
+@import "measurements";
+@import "conditionals";
+@import "shims";
+@import "typography";
+@import "css3";
+@import "design-patterns/alpha-beta";
+@import "design-patterns/buttons";
+
+// Breadcrumb
+@import "breadcrumb";
+
+// Collapsible subsections
+@import "collapsible";
+
+// In-page navigation
+@import "page_navigation";
+
+// Search box
+@import "search_box";
