@@ -2,6 +2,8 @@
 // Take a look at elements.scss to see which files are imported.
 @import 'elements';
 
+@import 'govuk-styles/styles';
+
 // Set up your main content area <main id="content">
 // This will give you a full width content block
 // See elements _layout.scss line 7.
@@ -20,3 +22,13 @@
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you,
 // either add and import new partial files, or modify those in GOV.UK elements to fit your user needs.
+
+// Increase the spacing at the top of each page
+main {
+  display: block;
+  padding-top: $gutter;
+
+  @include media (tablet) {
+    padding-top: $gutter*1.5;
+  }
+}
