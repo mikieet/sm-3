@@ -1,50 +1,80 @@
 {{<layout}}
 
 {{$pageTitle}}
-	GOV.UK prototyping kit
+	GOV.UK Service Manual
 {{/pageTitle}}
 
 {{$content}}
 
 <main id="content" role="main">
+	<div class="grid-row">
+		<div class="column-two-thirds">
+      <h1 class="heading-xlarge">Service Manual</h1>
+      <p class="lede">
+        Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </p>
 
-	<h1 class="heading-xlarge">Welcome to the GOV.UK prototyping kit</h1>
-	<!-- feel free to change this page to suit your needs -->
+			<form id="header-search" class="site-search" action="/search" method="get" role="search">
+		  	<div class="header-search-content">
+		    	<label for="search-main">Search GOV.UK</label>
+		      <input type="search" name="q" id="search-main" title="Search" class="js-search-focus"><input class="submit" type="submit" value="Search">
+				</div>
+		  </form>
+		</div>
+	</div>
 
-	<p>This is the index.html page - we recommend you put links to key pages here.</p>
+	<div class="grid-row">
+  	<div class="column-third">
+  		<h2 class="heading-medium"><a href="/agile-working/what-is-agile">Agile working</a></h2>
+      <p>
+        Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+      </p>
+  		<!--
+			<ul class="list-bullet">
+				<li><a href="#">What is agile?</a></li>
+				<li><a href="#">Why agile works</a></li>
+				<li><a href="#">Moving to agile</a></li>
+				<li><a href="#">Working in agile teams</a></li>
+				<li><a href="#">Agile governance</a></li>
+			</ul>
+			-->
+		</div>
+  	<div class="column-third">
+  		<h2 class="heading-medium"><a href="#">Assisted digital</a></h2>
+  		<p>
+  			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+  		</p>
+  	</div>
+  	<div class="column-third">
+  		<h2 class="heading-medium"><a href="#">Governance</a></h2>
+  		<p>
+  			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+  		</p>
+  	</div>
+	</div>
 
-	<h2 class="heading-large">Pages</h2>
+	<div class="grid-row">
+  	<div class="column-third">
+  		<h2 class="heading-medium"><a href="#">Making software</a></h2>
+  		<p>
+  			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+  		</p>
+		</div>
+  	<div class="column-third">
+  		<h2 class="heading-medium"><a href="#">Measuring success</a></h2>
+  		<p>
+  			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+  		</p>
+  	</div>
+  	<div class="column-third">
+  		<h2 class="heading-medium"><a href="#">Operating services</a></h2>
+  		<p>
+  			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+  		</p>
+  	</div>
+	</div>
 
-	<ul>
-		<li>
-			<a href="/examples">Example pages</a>
-		</li>
-	</ul>
-
-	<h2 class="heading-large">Resources</h2>
-
-	<ul class="list-bullet">
-		<li>
-			<a href="https://github.com/alphagov/govuk_prototype_kit/docs">
-				GOV.UK kit documentation
-			</a>
-		</li>
-		<li>
-			<a href="http://govuk-elements.herokuapp.com/snippets/">
-				Guide to GOV.UK elements HTML
-			</a>
-		</li>
-		<li>
-			<a href="https://www.gov.uk/service-manual">
-				Service design manual
-			</a>
-		</li>
-		<li>
-			<a href="https://www.gov.uk/design-principles">
-				Government Digital Service Design Principles
-			</a>
-		</li>
-	</ul>
+	<a href="#" class="heading-medium">All topics</a>
 
 </main>
 
