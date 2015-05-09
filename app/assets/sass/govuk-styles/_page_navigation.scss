@@ -41,7 +41,8 @@
 }
 
 .page-navigation li a span {
-    cursor: pointer
+    cursor: pointer;
+    background-color:green;
 }
 
 .page-navigation li a:hover span.part-title,.page-navigation li a:focus span.part-title,.page-navigation li a:hover span.part-description,.page-navigation li a:focus span.part-description {
@@ -50,7 +51,8 @@
 
 .page-navigation li span.part-number {
     display: none;
-    width: 1.75em
+    width: 1.75em;
+    
 }
 
 .page-navigation li span.part-label,.page-navigation li span.part-title {

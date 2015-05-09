@@ -33,3 +33,27 @@ ol {
   margin-bottom: 5px;
 }
 
+.list-contents li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid lightgrey;
+}
+
+.list-main-contents li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid lightgrey;
+  font-size: 21px;
+}
+
+.list-main-contents li a {
+  font-weight: bold;
+}
+
+.list-main-contents li:hover {
+  background-color: #f8f8f8;
+}
+
+.list-main-contents li p {
+  margin-bottom: 0px;
+}
